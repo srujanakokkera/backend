@@ -1,0 +1,49 @@
+.ProductTable {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.select{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+}
+
+
+.ProductTable h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.ProductTable select {
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+    
+.ProductTable table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.ProductTable th, .ProductTable td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.ProductTable th {
+    background-color: #f2f2f2;
+}
+
+.ProductTable td img {
+    max-width: 50px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
